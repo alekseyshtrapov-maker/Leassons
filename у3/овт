@@ -1,0 +1,7 @@
+try
+    A = int(input(Введите число A: "))
+    B = int(inpyt(Введите число B: "))
+    result = A + B
+    print(f"Сумма {A} + {B} = {result}")
+except ValueError
+    print("Введите текст")
